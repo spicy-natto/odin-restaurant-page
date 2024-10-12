@@ -96,7 +96,7 @@ textarea:not([rows]) {
 *,
 *::before,
 *::after {
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 :root {
@@ -159,4 +159,38 @@ footer {
   padding: 1rem;
   background: var(--footer-bkgrd-color);
   color: var(--footer-color);
+}
+
+.menu {
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 15rem);
+    grid-auto-rows: auto;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.menu-item {
+    list-style-type: none;
+    background: tan;
+    border-radius: 1rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .5rem;
+    box-shadow: 3px 3px 0 grey;
+}
+
+.menu-item p {
+    font-size: .9rem;
+}
+
+.menu-item img {
+    height: 9rem;
+}
+
+.menu-item .price {
+    align-self: end;
+    font-weight: 800;
 }
