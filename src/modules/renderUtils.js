@@ -8,8 +8,8 @@ function htmlToNodes(html) {
   return template.content.childNodes;
 }
 
-function renderContent(parentNode, html) {
-  parentNode.replaceChildren(htmlToNodes(html));
+function renderContent(parentNode, nodes) {
+  parentNode.replaceChildren(...nodes);
 }
 
 export { genHtml, htmlToNodes, renderContent };
