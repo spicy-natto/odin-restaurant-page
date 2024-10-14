@@ -38,4 +38,8 @@ function renderMenu() {
   return `<ul class="menu">${genHtml(menuItem, menuData)}</ul>`;
 }
 
-export default htmlToNodes(renderMenu());
+function renderNodes() {
+  return htmlToNodes(renderMenu());
+}
+
+export default renderNodes;

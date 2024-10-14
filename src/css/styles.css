@@ -152,6 +152,14 @@ header > nav > button {
   border-radius: 1rem;
 }
 
+header > nav > button:hover {
+  padding: 0.4rem 1rem;
+  border: none;
+  border-radius: 1rem;
+  background-color: grey;
+}
+
+
 footer {
   display: flex;
   justify-content: center;
