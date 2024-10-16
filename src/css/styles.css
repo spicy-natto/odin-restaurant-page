@@ -202,3 +202,40 @@ footer {
     align-self: end;
     font-weight: 800;
 }
+
+.home {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: space-evenly;
+  flex-wrap: wrap-reverse;
+}
+
+.home .info {
+  margin: 0 1rem;
+  flex: 2 auto;
+  text-align: center;
+}
+
+.home img {
+  margin: 1rem 2rem;
+  width: 40rem;
+  /* max-height: 722px; */
+  /* max-width: 1022px; */
+  flex: 1 auto;
+  aspect-ratio: 1022 / 721;
+}
+
+.home .info > div {
+  margin-bottom: 1.5rem;
+}
+
+.home .info > div > h2 {
+  font-size: 1.5rem;
+  margin-bottom: .25rem;
+}
+
+.home .info > div > p {
+  font-size: 1.2rem;
+}
