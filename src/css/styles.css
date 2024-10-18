@@ -239,3 +239,40 @@ footer {
 .home .info > div > p {
   font-size: 1.2rem;
 }
+
+.about {
+  text-align: center;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.about .blurb,
+.about .staff {
+  width: 50%;
+}
+
+.about .blurb {
+  margin-bottom: 3rem;
+}
+
+.about .staff div {
+  margin-bottom: 2rem;
+}
+
+.about h2,
+.about h3 {
+  margin-bottom: .5rem;
+}
+
+.about .staff .staff-title {
+  margin-bottom: 1rem;
+}
+
+hr {
+  border: 1px solid black;
+  width: 30%;
+  margin-top: 1rem;
+}

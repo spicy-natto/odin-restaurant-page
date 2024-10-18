@@ -1,5 +1,5 @@
 import { genHtml, htmlToNodes } from "./renderUtils.js";
-import shrimpImage from "../images/shrimp-and-grits-small.jpg"
+import shrimpImage from "../images/menu/shrimp-and-grits-small.jpg"
 
 const menuData = [
   {
@@ -7,6 +7,7 @@ const menuData = [
     description:
       "The tastiest darn Shrimp 'N Grits this side of the Mississipi",
     img: shrimpImage,
+    imgAlt: "shrimp and grits",
     price: "$14.99",
   },
   {
@@ -14,6 +15,7 @@ const menuData = [
     description:
       "The tastiest darn Shrimp 'N Grits this side of the Mississipi",
     img: shrimpImage,
+    imgAlt: "shrimp and grits",
     price: "$14.99",
   },
   {
@@ -21,6 +23,7 @@ const menuData = [
     description:
       "The tastiest darn Shrimp 'N Grits this side of the Mississipi",
     img: shrimpImage,
+    imgAlt: "shrimp and grits",
     price: "$14.99",
   },
 ];
